@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linear-graident-background-tech {
+  border-radius: 4px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(209, 231, 252, 0.5) 100%
+    ),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0.75) 0%,
+      #d1e7fc 100%
+    ),
+    lightgray 0% 0% / 7.999999821186066px 7.999999821186066px repeat;
+}
+
+.gradient-outer-body {
+  border-radius: var(--none, 0px);
+  background: var(
+    --backgrounds-gradients-linear-light-blue,
+    linear-gradient(0deg, #d1e7fc 0%, #fff 100%)
+  );
+}
