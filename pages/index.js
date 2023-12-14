@@ -2,8 +2,12 @@ import TechStackAnimation from "../components/TechStackAnimation/TechStackAnimat
 
 export default function Home() {
   return (
-    <div className="h-screen flex items-center justify-center gradient-outer-body">
+    <div className=" gradient-outer-body">
+      <div className="h-screen"></div>
+
       <TechStackAnimation />
+      <div className="h-screen"></div>
+
     </div>
   );
 }
